@@ -5,7 +5,9 @@ The first line of input will consist of N and K, 3 <= K.
 The second line contains N integers. Each integer is in the range of 1 to K where i-th integer denotes the peg to which disc radius i is presen in the initial configuration.
 The third line denotes the final configuaration in the format similar to the inital one.
 
-Example:
+#Example:
 6 4
 4 2 4 3 1 1
 1 1 1 1 1 1
+
+NOTE: this program is not so "smart," so it takes time to solve the game. The time to get to a solution increases exponentially according to needed moves to solve which means with a game which require a few moves, the program only needs a few seconds to solve, but with a more complicated game, it might takes minutes or even hours. This one works best for games that require less than 10 moves
